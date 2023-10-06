@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+            /* NAVBAR */
+
+
+nav{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(252, 248, 241);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 45px;
+}
+ul{
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    gap: 45px;
+    font-size: 18px;
+}
+li:hover{
+cursor: pointer;
+color: bisque;
+transition: .2s;
+}
+
+/* Section1 */
+
+
+.s1{
+    width: 100%;
+    height: 1000px;
+    background-image: url(https://assets.nicepagecdn.com/11a8ddce/4267640/images/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+.s1-box1{
+    background-color: rgb(151, 255, 47);
+    border-radius: 50%;
+    height: 275px;
+    width: 275px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 8rem;
+    top: 7rem;
+    
+}
+.s1-box1:hover{
+    cursor: default;
+}
+.box1-h1{
+    font-size: 80px;
+    padding-top: 50px;
+    font-weight: 300;
+}
+.s1-box2{
+    width: 400px;
+    margin-left: -20px;
+    padding-top: 90px;
+    justify-content: left;
+    color: white;
+    text-align: left;
+}
+.box2-h2{
+    margin-top: 30px;
+    font-size: 60px;
+    font-weight: 1500;
+    }
+.box2-buton{
+    color: white;
+    background-color: #F1AE0E;
+    font-size: 18px;
+    border-radius: 30px;
+    padding: 20px 46px 20px 46px;
+    margin-top: 20px;
+}
+.box2-buton:hover{
+    cursor: pointer;
+    color: black;
+    background-color: #f7cd6b;
+    transition: .2s;
+}
+
+
+           /* Section2 */
+
+
+.s2{
+    background-color: #1A1A1A;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.s2-d1{
+    width: 370px;
+    height: 370px;
+    background-image: url(https://assets.nicepagecdn.com/11a8ddce/4267640/images/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg);
+    background-size: cover;
+    background-position:center;
+    border-radius: 15%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;  
+    display: flex;
+}
+.s2-d2{
+    width: 370px;
+    height: 370px;
+    background-image: url(https://assets.nicepagecdn.com/11a8ddce/4267640/images/pexels-photo-3850972.jpeg);
+    background-size: cover;
+    background-position:center;
+    border-radius: 15%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;  
+    display: flex;
+    }
+.s2-d3{
+    width: 370px;
+    height: 370px;
+    background-image: url(https://assets.nicepagecdn.com/11a8ddce/4267640/images/italian-spaghetti-with-tomato-sauce-pan.jpg);
+    background-size: cover;
+    background-position:center;
+    border-radius: 15%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;  
+    display: flex;
+   }
+.s2-d1-h1{
+    color: white;
+}
+.s2-d2-h1{
+    color: white;
+}
+.s2-d3-h1{
+    color: white;
+}
+
+
+          /* Section3 */
+
+
+.s3{
+    background-color: #1A1A1A;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    color: white;
+    font-size: 30px;
+
+}
+.s3-d1{
+    width: 500px;
+    height: 300px;
+    text-align: left;
+    justify-content: left;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+.s3-d2{
+    width: 600px;
+    height: 600px;
+    background-image: url(https://assets.nicepagecdn.com/11a8ddce/4267640/images/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg);
+    background-size: cover;
+    background-position:center;
+    border-radius: 15%;
+    margin-top: 40px;
+    
+}
+.s3-p1{
+    font-style: none;
+    font-weight: 200;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.s3-h2{
+    margin-top: 20px;
+}
